@@ -13,7 +13,7 @@ function Sequence () {
               <ul className="list">
                 <li className="sequence__container-description">Позвоните нам по&nbsp;телефону: <a href="tel: +7(4722)25-00-25" className="hyperlink">+7(4722)25&#8209;00&#8209;25</a></li>
                 <li className="sequence__container-description">Отправьте сообщение на&nbsp;почту: <a href="mailto: info@techservice31.ru" className="hyperlink">info@techservice31.ru</a></li>
-                <li className="sequence__container-description">Оставьте заявку на&nbsp;сайте: <a href="http://techservice31.ru" target="_blank" className="hyperlink">techservice31.ru</a></li>
+                <li className="sequence__container-description">Оставьте заявку на&nbsp;сайте: <a href="http://techservice31.ru" target="_blank" rel="noreferrer" className="hyperlink">techservice31.ru</a></li>
               </ul>
             </div>
           </div>
