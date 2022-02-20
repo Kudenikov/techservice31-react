@@ -1,0 +1,7 @@
+.addition__card-container {
+    margin: 50px 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: calc(100% - 100px);
+}

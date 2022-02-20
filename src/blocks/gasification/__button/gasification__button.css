@@ -1,0 +1,70 @@
+.gasification__button {
+    width: 160px;
+    height: 60px;
+    background: #810B44;
+    margin: 100px 0 0 100px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+.gasification__button:before {
+	content:'';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: rgba(255,255,255,0.2);
+	transition: all .5s ease;
+}
+
+.gasification__button:hover:before {
+	height: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .gasification__button {
+        margin: 150px 0 50px 50px;
+    }
+} 
+
+@media screen and (max-width: 730px) {
+    .gasification__button {
+        margin: 20px 0 50px 50px;
+    }
+} 
+
+@media screen and (max-width: 530px) {
+    .gasification__button {
+        width: 130px;
+        height: 40px;
+        background: #810B44;
+        margin: 20px 0 50px 30px;
+        font-family: 'Rubik', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 40px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        z-index: 2;
+    }
+
+    .gasification__button:hover:before {
+        height: 40px;
+    }
+} 

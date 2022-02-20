@@ -1,0 +1,5 @@
+.footer__map {
+    height: 200px;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}

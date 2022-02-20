@@ -1,0 +1,26 @@
+.about__list {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 400px);
+    margin: 60px auto 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .about__list {
+        width: calc(100% - 300px);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .about__list {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .about__list {
+        width: calc(100% - 60px);
+    }
+}

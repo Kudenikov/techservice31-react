@@ -1,0 +1,14 @@
+.about__reason-title {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 530px) {
+    .about__reason-title {
+        margin: 0 auto 10px;
+        font-size: 18px;
+    }
+}
+

@@ -1,0 +1,12 @@
+.hyperlink {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: opacity .3s ease-in;
+    color: #000;
+}
+
+.hyperlink:hover {
+    opacity: .6;
+}

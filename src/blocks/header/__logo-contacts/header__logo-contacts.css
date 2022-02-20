@@ -1,0 +1,4 @@
+.header__logo-contacts {
+    display: flex;
+    justify-content: space-between;
+}

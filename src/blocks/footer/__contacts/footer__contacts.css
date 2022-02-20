@@ -1,0 +1,9 @@
+.footer__contacts {
+    text-align: left;
+}
+
+@media screen and (max-width: 730px) {
+    .footer__contacts {
+        text-align: center;
+    }
+}

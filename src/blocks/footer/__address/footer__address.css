@@ -1,0 +1,9 @@
+.footer__address {
+    text-align: right;
+}
+
+@media screen and (max-width: 730px) {
+    .footer__address {
+        text-align: center;
+    }
+}

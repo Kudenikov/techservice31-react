@@ -1,0 +1,13 @@
+.about__image {
+    width: 50px;
+    height: 50px;
+    margin: 0 25px 0 0;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media screen and (max-width: 530px) {
+    .about__image {
+        margin: 0 auto 25px;
+    }
+}

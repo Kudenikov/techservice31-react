@@ -1,0 +1,12 @@
+.page {
+    margin: 0 auto;
+    background-color: #fff;
+    min-width: 320px;
+    width: 100%;
+}
+
+/*
+div, p, img, a, ul, li, header, nav, footer, h1, h2, h3, h4, section, button {
+    border: solid red 1px;
+}
+*/

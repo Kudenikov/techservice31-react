@@ -1,0 +1,13 @@
+.sequence__container-title {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 530px) {
+    .sequence__container-title {
+        font-size: 18px;
+    }
+}

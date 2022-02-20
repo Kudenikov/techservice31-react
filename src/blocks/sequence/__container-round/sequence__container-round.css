@@ -1,0 +1,12 @@
+.sequence__container-round {
+    width: 44px;
+    height: 44px;;
+    background-color: #ed2204;
+    border-radius: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}

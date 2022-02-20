@@ -1,0 +1,18 @@
+.footer__contacts-container {
+    width: calc(100% - 200px);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 730px) {
+    .footer__contacts-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .footer__contacts-container {
+        width: calc(100% - 60px);
+    }
+}

@@ -1,0 +1,9 @@
+.about__text-container {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

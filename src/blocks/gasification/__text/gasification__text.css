@@ -1,0 +1,33 @@
+.gasification__text {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 1.4;
+    margin: 25px 0 0 100px;
+    max-width: 500px;
+    text-align: justify;
+    color: #fff;
+    z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .gasification__text {
+        font-size: 20px;
+        margin: 50px 0 0 50px;
+    }
+} 
+
+@media screen and (max-width: 730px) {
+    .gasification__text {
+        font-size: 16px;
+        margin: 40px 0 0 50px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .gasification__text {
+        font-size: 14px;
+        margin: 20px 0 0 30px;
+        max-width: 250px;
+    }
+}
