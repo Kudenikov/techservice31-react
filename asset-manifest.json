@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e3e5700.css",
-    "main.js": "/static/js/main.837c3ffd.js",
-    "static/js/787.b6929a2a.chunk.js": "/static/js/787.b6929a2a.chunk.js",
-    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
-    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
-    "static/media/Rubik-ExtraBold.ttf": "/static/media/Rubik-ExtraBold.b30aba6dab6c09b0ebcc.ttf",
-    "static/media/Rubik-Black.ttf": "/static/media/Rubik-Black.2b561a8eed0dced30c19.ttf",
-    "static/media/background.jpg": "/static/media/background.ab9e3a96bfd5fe9fefe9.jpg",
-    "static/media/Tool.png": "/static/media/Tool.99c81bdd524bd21b61b6.png",
-    "static/media/Test-tube.png": "/static/media/Test-tube.22d8833fdf078abdbdbb.png",
-    "static/media/Home.png": "/static/media/Home.c8cc0613e0aa1f237a32.png",
-    "static/media/Cloud-6.png": "/static/media/Cloud-6.641a869203e1bcaba49a.png",
-    "static/media/logo_black_white_text.svg": "/static/media/logo_black_white_text.0ea71b2fc85ffb37707047a5b848df19.svg",
-    "static/media/finance.svg": "/static/media/finance.2501d892e40e101a215572704bab3db4.svg",
-    "static/media/checked_yellow.svg": "/static/media/checked_yellow.b7ea427c1cf8ef5f48ec8cca4a673821.svg",
-    "index.html": "/index.html",
-    "static/media/clock_yellow.svg": "/static/media/clock_yellow.8ac1db1caceac0a2d9290159a67d8664.svg",
-    "main.9e3e5700.css.map": "/static/css/main.9e3e5700.css.map",
-    "main.837c3ffd.js.map": "/static/js/main.837c3ffd.js.map",
-    "787.b6929a2a.chunk.js.map": "/static/js/787.b6929a2a.chunk.js.map"
+    "main.css": "/techservice31-react/static/css/main.3a02c53b.css",
+    "main.js": "/techservice31-react/static/js/main.3d30412f.js",
+    "static/js/787.b6929a2a.chunk.js": "/techservice31-react/static/js/787.b6929a2a.chunk.js",
+    "static/media/Rubik-Regular.ttf": "/techservice31-react/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
+    "static/media/Rubik-Bold.ttf": "/techservice31-react/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
+    "static/media/Rubik-ExtraBold.ttf": "/techservice31-react/static/media/Rubik-ExtraBold.b30aba6dab6c09b0ebcc.ttf",
+    "static/media/Rubik-Black.ttf": "/techservice31-react/static/media/Rubik-Black.2b561a8eed0dced30c19.ttf",
+    "static/media/background.jpg": "/techservice31-react/static/media/background.ab9e3a96bfd5fe9fefe9.jpg",
+    "static/media/Tool.png": "/techservice31-react/static/media/Tool.99c81bdd524bd21b61b6.png",
+    "static/media/Test-tube.png": "/techservice31-react/static/media/Test-tube.22d8833fdf078abdbdbb.png",
+    "static/media/Home.png": "/techservice31-react/static/media/Home.c8cc0613e0aa1f237a32.png",
+    "static/media/Cloud-6.png": "/techservice31-react/static/media/Cloud-6.641a869203e1bcaba49a.png",
+    "static/media/logo_black_white_text.svg": "/techservice31-react/static/media/logo_black_white_text.0ea71b2fc85ffb37707047a5b848df19.svg",
+    "static/media/finance.svg": "/techservice31-react/static/media/finance.2501d892e40e101a215572704bab3db4.svg",
+    "index.html": "/techservice31-react/index.html",
+    "static/media/checked_yellow.svg": "/techservice31-react/static/media/checked_yellow.b7ea427c1cf8ef5f48ec8cca4a673821.svg",
+    "static/media/clock_yellow.svg": "/techservice31-react/static/media/clock_yellow.8ac1db1caceac0a2d9290159a67d8664.svg",
+    "main.3a02c53b.css.map": "/techservice31-react/static/css/main.3a02c53b.css.map",
+    "main.3d30412f.js.map": "/techservice31-react/static/js/main.3d30412f.js.map",
+    "787.b6929a2a.chunk.js.map": "/techservice31-react/static/js/787.b6929a2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e3e5700.css",
-    "static/js/main.837c3ffd.js"
+    "static/css/main.3a02c53b.css",
+    "static/js/main.3d30412f.js"
   ]
 }
