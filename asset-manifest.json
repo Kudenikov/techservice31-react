@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techservice31-react/static/css/main.3a02c53b.css",
-    "main.js": "/techservice31-react/static/js/main.3d30412f.js",
+    "main.css": "/techservice31-react/static/css/main.8f676c3f.css",
+    "main.js": "/techservice31-react/static/js/main.0c4417d3.js",
     "static/js/787.b6929a2a.chunk.js": "/techservice31-react/static/js/787.b6929a2a.chunk.js",
     "static/media/Rubik-Regular.ttf": "/techservice31-react/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
     "static/media/Rubik-Bold.ttf": "/techservice31-react/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
@@ -17,12 +17,12 @@
     "index.html": "/techservice31-react/index.html",
     "static/media/checked_yellow.svg": "/techservice31-react/static/media/checked_yellow.b7ea427c1cf8ef5f48ec8cca4a673821.svg",
     "static/media/clock_yellow.svg": "/techservice31-react/static/media/clock_yellow.8ac1db1caceac0a2d9290159a67d8664.svg",
-    "main.3a02c53b.css.map": "/techservice31-react/static/css/main.3a02c53b.css.map",
-    "main.3d30412f.js.map": "/techservice31-react/static/js/main.3d30412f.js.map",
+    "main.8f676c3f.css.map": "/techservice31-react/static/css/main.8f676c3f.css.map",
+    "main.0c4417d3.js.map": "/techservice31-react/static/js/main.0c4417d3.js.map",
     "787.b6929a2a.chunk.js.map": "/techservice31-react/static/js/787.b6929a2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a02c53b.css",
-    "static/js/main.3d30412f.js"
+    "static/css/main.8f676c3f.css",
+    "static/js/main.0c4417d3.js"
   ]
 }
