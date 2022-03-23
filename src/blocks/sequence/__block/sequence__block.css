@@ -1,0 +1,7 @@
+.sequence__block {
+    display: none;
+}
+
+.sequence__block_visible {
+    display: block;
+}

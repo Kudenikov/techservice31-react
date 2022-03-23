@@ -2,8 +2,8 @@ function AdditionCard(props) {
 
     function clickHandler() {
         const text = props.text;
-        const title = props.title;
-        props.onClick(text, title);
+        const image = props.image;
+        props.onClick(text, image);
     }
 
     return (

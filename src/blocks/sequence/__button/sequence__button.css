@@ -1,0 +1,16 @@
+.sequence__button {
+    background-image: url(../../../images/arrow_right.png);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+.sequence__button_opened {
+    transform: rotate(90deg);
+    transition: transform .2s ease-in;
+}

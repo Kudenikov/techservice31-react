@@ -2,25 +2,42 @@ import home from '../images/Home.png';
 import testTube from '../images/Test-tube.png';
 import tool from '../images/Tool.png';
 import gasCheck from '../images/Cloud-6.png';
+import boiler from '../images/boiler.png';
+import waterAnalisysImage from '../images/water-analisys.jpg';
+import gasCheckImage from '../images/gas-check.jpg';
+import serviceImage from '../images/service.jpg';
 import AdditionCard from './AdditionCard';
 import Popup from './Popup';
 import React from 'react';
+import { gasLevel, selectGasEquipment, service, waterAnalisys } from '../utils/constants';
 
 function Addition () {
 
     const [isOpen, setIsOpen] = React.useState(false);
     const [popupText, setPopupText] = React.useState('');
-    const [popupTitle, setPopupTitle] = React.useState('');
+    const [popupImage, setPopupImage] = React.useState({});
 
-    function clickHandler(text, title) {
+    function clickHandler(text, image) {
         setIsOpen(true);
         setPopupText(text);
-        setPopupTitle(title);
+        setPopupImage(image);
     }
 
     function popupClose() {
         setIsOpen(false);
     }
+
+    React.useEffect(() => {
+        const closeByEscape = (e) => {
+          if (e.key === 'Escape') {
+            popupClose();
+          }
+        }
+  
+        document.addEventListener('keydown', closeByEscape)
+        
+        return () => document.removeEventListener('keydown', closeByEscape)
+    }, [])
 
     return (
         <section className="addition" id="addition">
@@ -30,40 +47,35 @@ function Addition () {
                     imageLink={home}
                     cardText="Подбор, монтаж и&nbsp;предпусковая подготовка газопотребляющего оборудования."
                     onClick={clickHandler}
-                    text="
-                    Дом можно назвать уютным и&nbsp;комфортным, если в&nbsp;нём тепло. Сегодня есть разные способы, как отопить частный дом. Каждый выбирает тот вариант, который наиболее оптимальный в&nbsp;его случае.
-                    При обустройстве автономной системы отопления особое внимание нужно уделить выбору газового котла. Выбор газового котла является важным вопросом, от&nbsp;правильности решения которого может зависеть уровень комфортности вашей системы отопления. Но&nbsp;для решения данного вопроса необходимо определить какой котел выбрать.
-                    
-                    Газовые котлы классифицируются:
-1. По конструктивным особенностям- одноконтурный и двухконтурный.
-2. По расположению- настенные и напольные.
-3. По энергоэффективности- обычные и конденсационные.
-4. По конструктивному устройству газовой горелки- с открытой и закрытой камерой.
-5. По виду топлива- твердотопливные, газовые, электрические, жидкостные.
-Все виды котлов, в каждом отдельном случае имеют свои преимущества и недостатки. Наша компания сможет дать Вам рекомендации по выбору котла для конкретной ситуации.
-                    "
-                    title="Выбор системы отопления"
+                    text={selectGasEquipment}
+                    image={boiler}
                 />
                 <AdditionCard 
                     imageLink={testTube}
                     cardText="Химический анализ воды и&nbsp;подбор системы водоподготовки."
                     onClick={clickHandler}
+                    text={waterAnalisys}
+                    image={waterAnalisysImage}
                 />
                 <AdditionCard 
                     imageLink={tool}
                     cardText="Ежегодное обслуживание газопотребляющего оборудования."
                     onClick={clickHandler}
+                    text={service}
+                    image={serviceImage}
                 />
                 <AdditionCard 
                     imageLink={gasCheck}
                     cardText="Подбор, монтаж, пусконаладочные работы устройств, отслеживающих уровень загазованности помещений."
                     onClick={clickHandler}
+                    text={gasLevel}
+                    image={gasCheckImage}
                 />
                 <Popup 
                     isOpen={isOpen}
                     onClose={popupClose}
                     text={popupText}
-                    title={popupTitle}
+                    image={popupImage}
                 />                                
             </div>
       </section>

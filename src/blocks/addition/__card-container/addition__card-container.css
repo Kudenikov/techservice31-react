@@ -1,7 +1,9 @@
 .addition__card-container {
-    margin: 50px 50px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 50px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    justify-content: center;
     width: calc(100% - 100px);
+    gap: 40px;
 }

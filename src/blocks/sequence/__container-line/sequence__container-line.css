@@ -5,3 +5,7 @@
     background-color: #e8e8e8;
     border: none;
 }
+
+.sequence__container-line_display_none {
+    display: none;
+}

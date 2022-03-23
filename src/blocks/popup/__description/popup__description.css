@@ -1,0 +1,5 @@
+.popup__description {
+    display: flex;
+    margin: 0 0 10px 0;
+    text-indent: 20px;
+}
