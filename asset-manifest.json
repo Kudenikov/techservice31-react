@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/techservice31-react/static/css/main.4e2797e4.css",
-    "main.js": "/techservice31-react/static/js/main.e451f286.js",
+    "main.js": "/techservice31-react/static/js/main.078d7402.js",
     "static/js/787.b6929a2a.chunk.js": "/techservice31-react/static/js/787.b6929a2a.chunk.js",
     "static/media/background-sequence.jpg": "/techservice31-react/static/media/background-sequence.6b281b6065e9e10f7652.jpg",
     "static/media/boiler.png": "/techservice31-react/static/media/boiler.6d05fe61e667640a28b1.png",
     "static/media/background-main.jpg": "/techservice31-react/static/media/background-main.f063b0a0ffa12b1adcab.jpg",
+    "static/media/gas-check.jpg": "/techservice31-react/static/media/gas-check.f8738941453600c837ec.jpg",
     "static/media/Rubik-Regular.ttf": "/techservice31-react/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
     "static/media/Rubik-Bold.ttf": "/techservice31-react/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
     "static/media/Rubik-ExtraBold.ttf": "/techservice31-react/static/media/Rubik-ExtraBold.b30aba6dab6c09b0ebcc.ttf",
     "static/media/Rubik-Black.ttf": "/techservice31-react/static/media/Rubik-Black.2b561a8eed0dced30c19.ttf",
-    "static/media/gas-check.jpg": "/techservice31-react/static/media/gas-check.572514dc7f8a85228d55.jpg",
     "static/media/water-analisys.jpg": "/techservice31-react/static/media/water-analisys.249f7ba99bed9470709b.jpg",
     "static/media/service.jpg": "/techservice31-react/static/media/service.f533314e053a187e5c90.jpg",
     "static/media/Tool.png": "/techservice31-react/static/media/Tool.99c81bdd524bd21b61b6.png",
@@ -23,11 +23,11 @@
     "static/media/checked_yellow.svg": "/techservice31-react/static/media/checked_yellow.b7ea427c1cf8ef5f48ec8cca4a673821.svg",
     "static/media/clock_yellow.svg": "/techservice31-react/static/media/clock_yellow.8ac1db1caceac0a2d9290159a67d8664.svg",
     "main.4e2797e4.css.map": "/techservice31-react/static/css/main.4e2797e4.css.map",
-    "main.e451f286.js.map": "/techservice31-react/static/js/main.e451f286.js.map",
+    "main.078d7402.js.map": "/techservice31-react/static/js/main.078d7402.js.map",
     "787.b6929a2a.chunk.js.map": "/techservice31-react/static/js/787.b6929a2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e2797e4.css",
-    "static/js/main.e451f286.js"
+    "static/js/main.078d7402.js"
   ]
 }
