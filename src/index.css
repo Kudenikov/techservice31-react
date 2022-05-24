@@ -83,3 +83,10 @@
 @import url('./blocks/popup/__description/popup__description.css');
 @import url('./blocks/popup/__list/popup__list.css');
 @import url('./blocks/popup/__image/popup__image.css');
+@import url('./blocks/popup/__form/popup__form.css');
+@import url('./blocks/popup/__form-container/popup__form-container.css');
+@import url('./blocks/popup/__input/popup__input.css');
+@import url('./blocks/popup/__label/popup__label.css');
+@import url('./blocks/popup/__input-error/popup__input-error.css');
+@import url('./blocks/popup/__submit/popup__submit.css');
+@import url('./blocks/popup/__textarea/popup__textarea.css');

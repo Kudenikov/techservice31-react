@@ -1,4 +1,5 @@
-import logo from '../images/logo_black_white_text.svg'
+import React from 'react';
+import logo from '../images/logo/png/techservice-logo-1.png'
 
 function Header() {
     

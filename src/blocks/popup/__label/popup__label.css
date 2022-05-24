@@ -1,0 +1,12 @@
+.popup__label {
+    position: relative;
+    margin: 30px 50px 0;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+@media screen and (max-width: 730px) {
+    .popup__label {
+        margin: 30px 25px 0;
+    }
+}

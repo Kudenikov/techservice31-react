@@ -1,3 +1,4 @@
+import React from 'react';
 function AdditionCard(props) {
 
     function clickHandler() {

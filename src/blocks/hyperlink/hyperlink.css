@@ -10,3 +10,7 @@
 .hyperlink:hover {
     opacity: .6;
 }
+
+.hyperlink_underline {
+    text-decoration: underline;
+}

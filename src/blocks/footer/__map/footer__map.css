@@ -3,3 +3,9 @@
     width: calc(100% - 200px);
     margin: 0 auto;
 }
+
+@media screen and (max-width: 530px) {
+    .footer__map {
+        display: none;
+    }
+}

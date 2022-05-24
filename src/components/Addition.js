@@ -1,9 +1,9 @@
-import home from '../images/Home.png';
-import testTube from '../images/Test-tube.png';
-import tool from '../images/Tool.png';
-import gasCheck from '../images/Cloud-6.png';
+import home from '../images/Home.svg';
+import testTube from '../images/Test-tube.svg';
+import tool from '../images/Tool.svg';
+import gasCheck from '../images/Cogs.svg';
 import boiler from '../images/boiler.png';
-import waterAnalisysImage from '../images/water-analisys.jpg';
+import waterAnalisysImage from '../images/water-analisys.png';
 import gasCheckImage from '../images/gas-check.jpg';
 import serviceImage from '../images/service.jpg';
 import AdditionCard from './AdditionCard';
@@ -41,7 +41,7 @@ function Addition () {
 
     return (
         <section className="addition" id="addition">
-            <h2 className="addition__title">Дополнительные услуги, предоставляемые нашей компанией.</h2>
+            <h2 className="addition__title">Дополнительные услуги, предоставляемые нашей компанией</h2>
             <div className="addition__card-container">
                 <AdditionCard 
                     imageLink={home}

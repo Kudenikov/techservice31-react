@@ -1,16 +1,17 @@
+import React from 'react';
 import SequenceItem from "./SequenceItem";
 
 function Sequence () {
 
   return (
         <section className="sequence" id="sequence">
-        <h2 className="sequence__title">Последовательность действий газификации частного дома.</h2>
+        <h2 className="sequence__title">Последовательность действий газификации частного дома</h2>
         <div className="sequence__container">
           <SequenceItem number="1" title="Оставьте заявку" display={true}>
             <ul className="list">
               <li className="sequence__container-description">Позвоните нам по&nbsp;телефону: <a href="tel: +7(4722)25-00-25" className="hyperlink">+7(4722)25&#8209;00&#8209;25</a></li>
               <li className="sequence__container-description">Отправьте сообщение на&nbsp;почту: <a href="mailto: info@techservice31.ru" className="hyperlink">info@techservice31.ru</a></li>
-              <li className="sequence__container-description">Оставьте заявку на&nbsp;сайте: <a href="http://techservice31.ru" target="_blank" rel="noreferrer" className="hyperlink">techservice31.ru</a></li>
+              <li className="sequence__container-description">Оставьте заявку на&nbsp;сайте: <a href="http://techservice31.ru" target="_blank" rel="noopener noreferrer" className="hyperlink">techservice31.ru</a></li>
             </ul>
           </SequenceItem>
           <SequenceItem number="2" title="Выезд нашего специалиста на&nbsp;объект" display={true}>
