@@ -1,7 +1,7 @@
 {
   "main.css": "/techservice31-react/static/css/main.344eefa5.chunk.css",
-  "main.js": "/techservice31-react/static/js/main.2371d504.chunk.js",
-  "main.js.map": "/techservice31-react/static/js/main.2371d504.chunk.js.map",
+  "main.js": "/techservice31-react/static/js/main.7916e11e.chunk.js",
+  "main.js.map": "/techservice31-react/static/js/main.7916e11e.chunk.js.map",
   "static/js/1.ad39ee43.chunk.js": "/techservice31-react/static/js/1.ad39ee43.chunk.js",
   "static/js/1.ad39ee43.chunk.js.map": "/techservice31-react/static/js/1.ad39ee43.chunk.js.map",
   "static/js/2.b536253c.chunk.js": "/techservice31-react/static/js/2.b536253c.chunk.js",
@@ -23,6 +23,6 @@
   "static/media/index.css": "/techservice31-react/static/media/background-sequence.e734e376.jpg",
   "static/css/main.344eefa5.chunk.css.map": "/techservice31-react/static/css/main.344eefa5.chunk.css.map",
   "index.html": "/techservice31-react/index.html",
-  "precache-manifest.514d41213df74cc9bdb5c553a2591b18.js": "/techservice31-react/precache-manifest.514d41213df74cc9bdb5c553a2591b18.js",
+  "precache-manifest.2ae9ca9a30155e12eed0d21d600cd6ce.js": "/techservice31-react/precache-manifest.2ae9ca9a30155e12eed0d21d600cd6ce.js",
   "service-worker.js": "/techservice31-react/service-worker.js"
 }
