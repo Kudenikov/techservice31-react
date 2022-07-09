@@ -12,9 +12,8 @@ function Header() {
       <div className="header__logo-contacts">
         <img src={logo} className="header__logo" alt="Техсервис" onClick={scrollHandler}/>
         <div className="header__contacts">
-          <a href="tel: +7(4722)25-00-25" className="header__phone hyperlink hyperlink_color_white">	
-            &#9742; +7(4722)25-00-25</a>
-          <a href="mailto: info@techservice31.ru" className="header__mail hyperlink hyperlink_color_white">&#9993; info@techservice31.ru</a>
+          <a href="tel: +7(4722)25-00-25" className="header__phone hyperlink hyperlink_color_white">+7(4722)25-00-25</a>
+          <a href="mailto: info@techservice31.ru" className="header__mail hyperlink hyperlink_color_white">info@techservice31.ru</a>
         </div>
       </div>
 

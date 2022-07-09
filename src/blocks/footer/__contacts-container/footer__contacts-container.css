@@ -2,18 +2,14 @@
     width: calc(100% - 200px);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 10px auto 50px;
     flex-direction: column;
-}
-
-@media screen and (max-width: 730px) {
-    .footer__contacts-container {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width: 530px) {
     .footer__contacts-container {
         width: calc(100% - 60px);
+        margin: 10px auto 50px;
     }
 }

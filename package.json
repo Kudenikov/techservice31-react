@@ -2,7 +2,7 @@
   "name": "techservice31-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kudenikov.github.io/techservice31-react",
+  "homepage": "https://ts-31.ru",
   "dependencies": {
     "@formspree/react": "^2.2.5",
     "@testing-library/jest-dom": "^5.16.2",
@@ -18,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && scp -r ./build/* u1658628@31.31.196.165:/var/www/u1658628/data/www/ts-31.ru"
   },
   "eslintConfig": {
     "extends": [

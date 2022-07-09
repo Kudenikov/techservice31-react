@@ -13,10 +13,10 @@ function SequenceItem(props) {
                 <div className={`sequence__container-line ${!props.display ? "sequence__container-line_display_none" : ""}`}></div>
             </div>
             <div className="sequence__container-text">
-                <span className="sequence__container-title" onClick={handleClick}>
+                <h3 className="sequence__container-title" onClick={handleClick}>
                 <button className={`sequence__button ${isOpen ? "sequence__button_opened" : ""}`}/>
                     {props.title}
-                </span>
+                </h3>
                 <div className={`sequence__block ${isOpen ? "sequence__block_visible" : ""}`}>
                     {props.children}
                 </div>

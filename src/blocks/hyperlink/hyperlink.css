@@ -5,6 +5,7 @@
     opacity: 1;
     transition: opacity .3s ease-in;
     color: #000;
+    cursor: pointer;
 }
 
 .hyperlink:hover {

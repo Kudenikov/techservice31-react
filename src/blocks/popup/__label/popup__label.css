@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 730px) {
     .popup__label {
-        margin: 30px 25px 0;
+        margin: 30px auto 0;
+        max-width: 250px;
     }
 }

@@ -31,13 +31,20 @@ function PopupWithForm(props) {
         const input = e.target;
         setPhone(input.value);
         // eslint-disable-next-line
-        const regex = /^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/;
-        if (!regex.test(input.value)) {
-          setIsPhoneValid(false);
-          setPhoneInputError('Некорректный номер телефона');
-        } else { 
-          setPhoneInputError('');
-          setIsPhoneValid(true);
+        const regex = /[^0-9 +\(\)-]/;
+        if (regex.test(input.value)) {
+            setIsPhoneValid(false);
+            setPhoneInputError('Некорректный номер телефона');
+        } else {
+            // eslint-disable-next-line
+            const regexp = /^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/;
+            if (!regexp.test(input.value)) {
+                setPhoneInputError('');
+                setIsPhoneValid(false);
+            } else { 
+                setPhoneInputError('');
+                setIsPhoneValid(true);
+            }
         }
     }
 
@@ -109,6 +116,7 @@ function PopupWithForm(props) {
                             value={phone} 
                             onChange={handlePhoneChange}
                             className="popup__input" 
+                            required
                         />
                         <span className="popup__input-error">{phoneInputError}</span>
                     </label>
