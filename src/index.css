@@ -23,12 +23,39 @@
 @import url('./blocks/header/__nav/header__nav.css');
 @import url('./blocks/header/__contacts/header__contacts.css');
 @import url('./blocks/header/__logo-contacts/header__logo-contacts.css');
+@import url('./blocks/header/__auth/header__auth.css');
 
 /* GASIFICATION */
 @import url('./blocks/gasification/gasification.css');
 @import url('./blocks/gasification/__title/gasification__title.css');
 @import url('./blocks/gasification/__text/gasification__text.css');
 @import url('./blocks/gasification/__button/gasification__button.css');
+
+/* NEWS */
+@import url('./blocks/news/news.css');
+@import url('./blocks/news/__title/news__title.css');
+
+/* NEWSLIST */
+@import url('./blocks/newslist/newslist.css');
+
+/* MORE */
+@import url('./blocks/more/more.css');
+
+/* AUTH */
+@import url('./blocks/auth/auth.css');
+@import url('./blocks/auth/__button/auth__button.css');
+@import url('./blocks/auth/__form/auth__form.css');
+@import url('./blocks/auth/__input/auth__input.css');
+@import url('./blocks/auth/__link/auth__link.css');
+@import url('./blocks/auth/__registered/auth__registered.css');
+@import url('./blocks/auth/__text/auth__text.css');
+@import url('./blocks/auth/__title/auth__title.css');
+
+/* NEWS-CARD */
+@import url('./blocks/news-card/news-card.css');
+@import url('./blocks/news-card/__image/news-card__image.css');
+@import url('./blocks/news-card/__text/news-card__text.css');
+@import url('./blocks/news-card/__date/news-card__date.css');
 
 /* ABOUT */
 @import url('./blocks/about/about.css');

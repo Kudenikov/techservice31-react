@@ -2,6 +2,7 @@
     color: #fff;
     text-decoration: none;
     transition: color .2s ease-in;
+    cursor: pointer;
 }
 
 .header__link:hover {

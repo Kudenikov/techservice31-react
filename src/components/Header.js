@@ -1,24 +1,44 @@
 import React from 'react';
-import logo from '../images/logo/png/techservice-logo-1.png'
+import logo from '../images/logo/png/techservice-logo-1.png';
+import { useNavigate } from "react-router-dom";
 
-function Header() {
+
+function Header(props) {
+
+    const navigate = useNavigate();
+
+    function handleLogin() {
+        navigate("/signin");
+    }
+
+    function handleRegister() {
+        navigate("/signup");
+    }
     
     function scrollHandler() {
+        navigate("/");
         window.scrollTo(0, 0);
     }
 
     return (
     <header className="header">
-      <div className="header__logo-contacts">
-        <img src={logo} className="header__logo" alt="Техсервис" onClick={scrollHandler}/>
-        <div className="header__contacts">
-          <a href="tel: +7(4722)25-00-25" className="header__phone hyperlink hyperlink_color_white">+7(4722)25-00-25</a>
-          <a href="mailto: info@techservice31.ru" className="header__mail hyperlink hyperlink_color_white">info@techservice31.ru</a>
+        <ul className={`header__auth ${props.hidden && "hidden"}`}>
+            <li className="header__link" onClick = {handleRegister}>Регистрация</li>
+            <li className="header__link" onClick = {handleLogin}>Войти</li>
+        </ul>
+        <div className="header__logo-contacts">
+            <img src={logo} className="header__logo" alt="Техсервис" onClick={scrollHandler}/>
+            <div className={`header__contacts ${props.hidden && "hidden"}`}>
+            <a href="tel: +7(4722)25-00-25" className="header__phone hyperlink hyperlink_color_white">+7(4722)25-00-25</a>
+            <a href="mailto: info@techservice31.ru" className="header__mail hyperlink hyperlink_color_white">info@techservice31.ru</a>
+            </div>
         </div>
-      </div>
 
-        <nav className="header__nav">
+        <nav className={`header__nav ${props.hidden && "hidden"}`}>
             <ul className="header__menu">
+                <li>
+                    <a href="#news" className="header__link">Новости</a>
+                </li>
                 <li>
                     <a href="#about" className="header__link">Наши преимущества</a>
                 </li>

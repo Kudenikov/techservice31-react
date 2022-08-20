@@ -1,4 +1,7 @@
-import Gasification from "./Gasification"
+import Header from "./Header";
+import Footer from "./Footer";
+import Gasification from "./Gasification";
+import News from "./News";
 import About from "./About";
 import Sequence from "./Sequence";
 import Addition from "./Addition";
@@ -16,16 +19,19 @@ function Main() {
     }
 
     return (
-        <main>
+        <>
+            <Header hidden={false} />
             <Gasification buttonHandler={buttonHandler} />
+            <News />
             <About />
             <Sequence />
             <Addition />
+            <Footer />
             <PopupWithForm 
                 isOpen={isOpen}
                 onClose={popupClose}
             />
-    </main>
+    </>
     )
 }
 

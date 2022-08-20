@@ -76,6 +76,7 @@ function Addition () {
                     onClose={popupClose}
                     text={popupText}
                     image={popupImage}
+                    news={false}
                 />                                
             </div>
       </section>

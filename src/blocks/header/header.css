@@ -10,13 +10,13 @@
     z-index: 3;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
     .header {
         min-height: 75px;
     }
 } 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 830px) {
     .header {
         flex-direction: column;
         position: relative;

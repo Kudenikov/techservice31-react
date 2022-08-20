@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 /*
 div, p, img, a, ul, li, header, nav, footer, h1, h2, h3, h4, section, button {
     border: solid red 1px;
