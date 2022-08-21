@@ -2,17 +2,21 @@ import React from 'react';
 import NewsList from './NewsList';
 import More from './More';
 import Popup from './Popup';
-import news from '../utils/news';
+import AddCardPopup from './AddCardPopup';
+import mainApi from '../utils/MainApi';
 
 import { SCREEN_WIDTH } from '../utils/constants';
 
-function News() {
+function News(props) {
 
     const [isOpen, setIsOpen] = React.useState(false);
     const [popupText, setPopupText] = React.useState('');
     const [popupImage, setPopupImage] = React.useState({});
     const [isButtonMoreVisible, setIsButtonMoreVisible] = React.useState(false);
     const [countNews, setCountNews] = React.useState(0);
+    const [cards, setCards] = React.useState([]);
+    const [isAddCardPopupOpen, setIsAddCardPopupOpen] = React.useState(false);
+
 
     function setOrder() {
         if (window.innerWidth >= SCREEN_WIDTH.max) {
@@ -23,6 +27,12 @@ function News() {
     }
 
     React.useEffect(() => {
+        mainApi.getInitialCards()
+        .then((cards) => {
+            setCards(cards.data);
+        })
+        .catch(error => 
+            console.log('ОШИБКА:', error))
         setOrder();
         setIsButtonMoreVisible(true);
         const onResize = () => {
@@ -35,12 +45,12 @@ function News() {
     },[])
 
     React.useEffect(() => {
-        if (countNews < news.length) {
+        if (countNews < cards.length) {
             setIsButtonMoreVisible(true);
         } else {
             setIsButtonMoreVisible(false);
         }
-    }, [countNews, news])
+    }, [countNews, cards])
     
     function popupOpen(text, image) {
         setIsOpen(true);
@@ -60,13 +70,44 @@ function News() {
         }
     }
 
+    function onAddCard() {
+        setIsAddCardPopupOpen(true);
+    }
+
+    function handleClose() {
+        setIsAddCardPopupOpen(false);
+    }
+
+    function handleAddCard({message, link, date}) {
+        mainApi.addNewCard({message, link, date})
+        .then((card) => {
+            setCards([card.data, ...cards]);
+        })
+        .catch(error => 
+            console.log('ОШИБКА:', error))
+    }
+
+    function handleDeleteClick(card) {
+        mainApi.deleteCard(card._id)
+        .then(() => {
+            setCards((state) => state.filter((item) => 
+            item._id !== card._id
+            ))
+        })
+        .catch(error => 
+            console.log('ОШИБКА:', error))
+    }
+
     return (
         <section className="news" id="news">
             <h2 className="news__title">Новости компании</h2>
+            <button type="button" className={`news__add-button ${!props.isAdmin && "hidden"}`} onClick = {onAddCard}>Добавить</button>
             <NewsList 
                 handleClick = {popupOpen}
-                news={news}
+                news={cards}
                 countNews={countNews}
+                isAdmin={props.isAdmin}
+                handleDeleteClick={handleDeleteClick}
             />
             <More 
                 isButtonMoreVisible = {isButtonMoreVisible}
@@ -78,7 +119,12 @@ function News() {
                 text={popupText}
                 image={popupImage}
                 news={true}
-            />     
+            />
+            <AddCardPopup 
+                isOpen={isAddCardPopupOpen}
+                onClose={handleClose}
+                onAddCard={handleAddCard}
+            />
         </section>
     )
 }

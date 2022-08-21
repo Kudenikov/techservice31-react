@@ -1,6 +1,6 @@
 import Header from "./Header";
 import AuthForm from "./AuthForm";
-//import InfoToolTip from './InfoToolTip';
+import InfoToolTip from './InfoToolTip';
 import React from "react";
 
 function Register(props) {
@@ -43,13 +43,13 @@ function Register(props) {
                 status="Уже зарегистрированы?"
                 toDo="Войти"
                 path="/signin"
-            />{/* 
+            />
             <InfoToolTip 
                 onClose={props.onClose} 
                 isOpen={props.isOpen} 
                 title={props.message} 
                 image={props.imageToolTip}
-            />*/}
+            />
         </section>
     )
 }

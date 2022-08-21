@@ -9,8 +9,12 @@ function NewsList(props) {
                     return (
                         <NewsCard 
                             {...card}
-                            key={card.id}
+                            item={card}
+                            date={card.createdAt.slice(0,10)}
+                            key={card._id}
                             onClick={props.handleClick}
+                            isAdmin={props.isAdmin}
+                            onCardDelete={props.handleDeleteClick}
                         />
                     )
                 })

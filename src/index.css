@@ -34,6 +34,7 @@
 /* NEWS */
 @import url('./blocks/news/news.css');
 @import url('./blocks/news/__title/news__title.css');
+@import url('./blocks/news/__add-button/news__add-button.css');
 
 /* NEWSLIST */
 @import url('./blocks/newslist/newslist.css');
@@ -56,6 +57,7 @@
 @import url('./blocks/news-card/__image/news-card__image.css');
 @import url('./blocks/news-card/__text/news-card__text.css');
 @import url('./blocks/news-card/__date/news-card__date.css');
+@import url('./blocks/news-card/__trash/news-card__trash.css');
 
 /* ABOUT */
 @import url('./blocks/about/about.css');
@@ -117,3 +119,4 @@
 @import url('./blocks/popup/__input-error/popup__input-error.css');
 @import url('./blocks/popup/__submit/popup__submit.css');
 @import url('./blocks/popup/__textarea/popup__textarea.css');
+@import url('./blocks/popup/__tool-tip/popup__tool-tip.css');

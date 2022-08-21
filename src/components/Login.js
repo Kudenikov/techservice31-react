@@ -1,6 +1,7 @@
 import Header from "./Header";
 import AuthForm from "./AuthForm";
 import React from "react";
+import InfoToolTip from "./InfoToolTip";
 
 function Login(props) {
 
@@ -42,14 +43,13 @@ function Login(props) {
                 status="Еще не зарегистрированы?"
                 toDo="Зарегистрироваться"
                 path="/signup"
-            />{/*
+            />
             <InfoToolTip 
                 onClose={props.onClose} 
                 isOpen={props.isOpen} 
                 title="Что-то пошло не так! Попробуйте еще раз." 
                 image={props.imageToolTip}
             />
-            */}
         </section>
     )
 }

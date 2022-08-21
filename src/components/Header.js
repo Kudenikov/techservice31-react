@@ -23,8 +23,10 @@ function Header(props) {
     return (
     <header className="header">
         <ul className={`header__auth ${props.hidden && "hidden"}`}>
-            <li className="header__link" onClick = {handleRegister}>Регистрация</li>
-            <li className="header__link" onClick = {handleLogin}>Войти</li>
+            <li className={`header__link ${props.loggedIn && "hidden"}`} onClick = {handleRegister}>Регистрация</li>
+            <li className={`header__link ${props.loggedIn && "hidden"}`} onClick = {handleLogin}>Войти</li>
+            <li className={`header__link ${!props.loggedIn && "hidden"}`}>{props.email}</li>
+            <li className={`header__link ${!props.loggedIn && "hidden"}`} onClick = {props.handleExit}>Выйти</li>
         </ul>
         <div className="header__logo-contacts">
             <img src={logo} className="header__logo" alt="Техсервис" onClick={scrollHandler}/>

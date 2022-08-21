@@ -1,0 +1,17 @@
+.news__add-button {
+    width: 150px;
+    height: 50px;
+    margin: 30px auto 0;
+    background-color: #F4F4F4;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: opacity .5s ease-in;
+}
+
+.news__add-button:hover {
+    opacity: .6;
+}
