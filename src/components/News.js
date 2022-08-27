@@ -29,7 +29,8 @@ function News(props) {
     React.useEffect(() => {
         mainApi.getInitialCards()
         .then((cards) => {
-            setCards(cards.data);
+            let sortedCards = sortCards(cards.data);
+            setCards(sortedCards);
         })
         .catch(error => 
             console.log('ОШИБКА:', error))
@@ -62,6 +63,14 @@ function News(props) {
         setIsOpen(false);
     }
 
+    function sortCards(cards) {
+        return cards.sort(function(a, b) {
+            let dateA = new Date(a.createdAt);
+            let dateB = new Date(b.createdAt);
+            return dateB - dateA;
+        })
+    }
+
     function onButtonMoreClick() {
         if (window.innerWidth >= SCREEN_WIDTH.max) {
             setCountNews(countNews + 3);
@@ -81,7 +90,8 @@ function News(props) {
     function handleAddCard({message, link, date}) {
         mainApi.addNewCard({message, link, date})
         .then((card) => {
-            setCards([card.data, ...cards]);
+            let sortedCards = sortCards([card.data, ...cards]);
+            setCards(sortedCards);
         })
         .catch(error => 
             console.log('ОШИБКА:', error))

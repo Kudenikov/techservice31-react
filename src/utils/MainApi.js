@@ -80,6 +80,14 @@ class MainApi {
         .then(this._checkResponse)
     }
 
+    uploadCard(card) {
+        return fetch(`${this.address}/upload`, {
+            method: 'POST',
+            body: card,
+        })
+        .then(this._checkResponse)
+    }
+
     setToken(jwt) {
         return setTimeout(() => {
             return jwt
@@ -88,7 +96,7 @@ class MainApi {
 }
 
 const mainApi = new MainApi({
-    address: 'http://localhost:3000',
+    address: 'http://localhost:5000',
     token: `Bearer ${localStorage.getItem('jwt')}`,
   });
 

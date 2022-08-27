@@ -28,7 +28,6 @@ function Main(props) {
             />
             <Gasification buttonHandler={buttonHandler} />
             <News 
-                onAddCard={props.onAddCard}
                 isAdmin={props.isAdmin}
             />
             <About />
