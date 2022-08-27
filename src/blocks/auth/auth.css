@@ -1,0 +1,6 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    background-color: #520f21;
+    height: 100vh;
+}

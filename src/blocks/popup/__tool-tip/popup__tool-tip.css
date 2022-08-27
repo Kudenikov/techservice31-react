@@ -1,0 +1,56 @@
+.popup__tool-tip {
+    min-width: 430px;
+    min-height: 330px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.popup__info-tool-image {
+    margin: 60px auto 0;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.popup__tool-tip-title {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 34px 0 54px 36px;
+}
+
+.popup__tool-tip-title_centered {
+    margin: 32px auto 0;
+    max-width: 358px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__tool-tip-title {
+        font-size: 18px;
+        margin: 25px 0 75px 22px;
+    }
+    .popup__tool-tip-title_centered {
+        margin: 40px auto 0;
+        max-width: 244px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup__info-tool-image {
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup__tool-tip {
+        min-width: 282px;
+        min-height: 322px;
+    }
+}

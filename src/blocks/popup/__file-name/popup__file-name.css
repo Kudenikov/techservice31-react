@@ -1,0 +1,7 @@
+.popup__file-name {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: #000;
+    font-size: 11px;
+}

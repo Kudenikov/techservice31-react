@@ -9,23 +9,23 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1060px) {
     .header__menu {
-        width: 600px;
+        width: 700px;
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
     .header__menu {
-        width: 500px;
+        width: 600px;
         font-size: 14px;
         margin: 32px 32px 0 0;
     }
 } 
 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 830px) {
     .header__menu {
         display: none;
     }

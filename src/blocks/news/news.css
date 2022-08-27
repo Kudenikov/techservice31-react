@@ -1,0 +1,6 @@
+.news {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

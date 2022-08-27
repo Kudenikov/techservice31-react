@@ -1,4 +1,10 @@
 import React from 'react';
+
+export const SCREEN_WIDTH = {
+    max: 1137,
+    min: 634
+  }
+  
 const selectGasEquipment = () => {
     return (
         <>
